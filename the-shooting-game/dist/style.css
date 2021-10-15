@@ -1,0 +1,72 @@
+#topRow{
+  display: flex;
+  flex-direction:row;
+/*   border: 1px solid;
+  border-color: red; */
+  justify-content: center;
+  align-items:flex-end;
+  
+}
+#player1{
+/*   border: 1px solid; */
+}
+#player1 img{
+  height:350px;
+/*   margin-top:180px; */
+}
+#player2{
+/*   border: 1px solid; */
+}
+#player2 img{
+  height: 300px;
+/*    margin-top:180px; */
+}
+.chars{
+  margin:15px 40px;
+}
+
+#bottomRow{
+  padding:20px;
+  font:20pt Arial;
+  text-align:center;
+}
+.stats{
+  width:350px;
+/*   border:1px solid;
+  border-color:blue; */
+  height:400px;
+  visibility:hidden;
+  
+}
+.healthlabel{
+  font:18pt Arial;
+  font-weight:bold;
+ 
+}
+.buttonStyle{
+  background-color: white;
+  border: 5px solid;
+  border-color:black;
+  font: 24pt Arial;
+  border-radius:20px;
+  padding:10px 35px;
+  font-weight:bold;
+}
+
+.buttonStyle:hover{
+  background-color:black;
+  color:white;
+}
+
+.hpBorder{
+  width:300px;
+  height:30px;
+  border:3px solid;
+  border-color: black;
+}
+.hpBar{
+  width:300px;
+  height:30px;
+  background-color:green;
+  
+}
